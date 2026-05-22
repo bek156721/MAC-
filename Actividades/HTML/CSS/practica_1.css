@@ -1,0 +1,21 @@
+#DiegoS
+{
+    background-color: blue;
+}
+#DiegoL
+{
+    background-color: black;
+    color: azure;
+}
+#Rebeca
+{
+    background-color: rgb(245, 94, 212);
+}
+th,td
+{
+    border:1px solid black;
+}
+.head
+{
+    background-color: rgb(247, 228, 174);
+}

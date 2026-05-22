@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 2</title>
+    <meta name = "author" content ="Rebeca Magallón">
+    <meta name = "description" content = "Explicación de un código en C">
+</head>
+<body>
+    <h1>Actividad 2</h1>
+    <h2>Explicación de un código en C</h2>
+    <hr>
+    <h3>Código a explicar</h3>
+    <pre><code>
+    #include &lt;stdio.h&gt;
+    int main()
+    {
+        int edad;
+        printf("¿Cuántos años tienes? ");
+        scanf("%d", &edad);
+        if(edad >= 18)
+        {
+            printf("Eres mayor de edad.\n");
+        }
+        else
+        {
+            printf("Eres menor de edad.\n");
+        }
+        return 0;
+    }
+    </code></pre>
+    <hr>
+    <p> Se declara la biblioteca: <code>#include &lt;stdio.h&gt;</code></p>
+    <p> Se declara una variable de tipo entero llamda edad: <code>int edad;</code></p>
+    <p> Se imprime un mensaje en pantalla: <code>printf("¿Cuántos años tienes? ");</code></p>
+    <p> Se lee un número entero desde el teclado y se guarda en la variable edad: <code>scanf("%d", &edad);</code></p>
+    <p> Se evalúa si la edad es mayor o igual a 18: <code>if(edad >= 18)</code></p>
+    <p> Si la condición es verdadera, se imprime un mensaje indicando que la persona es mayor de edad: <code>printf("Eres mayor de edad.\n");</code></p>
+    <p> Si la condición es falsa, se imprime un mensaje indicando que la persona es menor de edad: <code>printf("Eres menor de edad.\n");</code></p>
+    <p> Finalmente, el programa retorna 0 para indicar que terminó correctamente: <code>return 0;</code></p>
+</body>
+</html>
